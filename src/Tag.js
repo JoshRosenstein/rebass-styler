@@ -1,6 +1,6 @@
 import React from "react"
 import cleanPropsByTag from "@roseys/clean-props-by-tag"
-import omit from "./omit"
+import { omit } from "@roseys/futils"
 
 const createTag = (options = {}) => {
   const {
